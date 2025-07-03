@@ -53,3 +53,20 @@ The rule engine, implemented in `ruleEngine.py`, iterates over all parsed senten
 ---
 
 ## 🛠️ Project Structure
+
+mea-anomaly-noran/
+├── nmea_output.txt # Input file with NMEA data
+├── nmeaParser.py # Parses and structures NMEA sentences
+├── ruleEngine.py # Applies anomaly detection rules
+├── main.py # Orchestrates parsing and detection
+├── anomalies.log # Output file listing all detected anomalies
+└── README.md # This file
+
+## ▶️ How to Run
+
+1. Ensure `nmea_output.txt` is in the same folder.
+2. Run the script:
+
+```bash
+python main.py
+```
